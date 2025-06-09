@@ -1,0 +1,25 @@
+{
+  "name": "test-example-helia",
+  "version": "1.0.0",
+  "description": "Example for Trustless Gateway Block Broker",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "type": "module",
+  "optionalDependencies": {
+    "@ipshipyard/node-datachannel": "*"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@helia/block-brokers": "^4.2.2",
+    "@helia/routers": "^3.1.2",
+    "@helia/unixfs": "^5.0.3",
+    "helia": "^5.4.2",
+    "it-all": "^3.0.9",
+    "multiformats": "^13.3.6",
+    "uint8arrays": "^5.1.0"
+  }
+}
